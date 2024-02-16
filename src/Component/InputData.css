@@ -1,0 +1,33 @@
+.inputfield {
+  border-radius: 25px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  background: rgb(50, 50, 83);
+  display: flex;
+  
+}
+
+.inputfield input {
+  color: rgb(161, 160, 160);
+  font-size: 18px;
+  padding: 13px;
+  background: transparent;
+  border: none;
+      outline: none;
+}
+
+.inputfield input ::placeholder {
+  color: rgb(161, 160, 160);
+ }
+
+.inputfield button {
+  background: #3479b9;
+  border: none;
+  font-size: 25px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
